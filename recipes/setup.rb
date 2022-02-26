@@ -1,9 +1,12 @@
 package 'tree' do
     action :install
-    end
+end
+package 'couchbase' do
+    action :install
+end
 package 'git' do
     action :install
-    end
+end
 file 'c/temp/motd' do
     content 'Property of ...'
-    end
+end
